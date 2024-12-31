@@ -47,8 +47,8 @@ pip install pandas numpy matplotlib seaborn scipy
     *   Clone the repository to your local machine:
 
         ```bash
-        git clone [repository_url]
-        cd [repository_name]
+        git clone https://github.com/shamshad-ather/zebrafish-analysis/
+        cd zebrafish-analysis
         ```
 2.  **Install Requirements:**
     *   Make sure you have the required python packages. If not install:
