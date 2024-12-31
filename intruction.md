@@ -45,7 +45,7 @@ This file contains detailed fish movement data for each frame.
 
 *    **`speed1`, `speed2`, ...**: The speed (in cm/s) at which each fish is moving in the current frame.
 
-    *    **Interpretation**: This corresponds to how quickly the fish is moving in this frame.
+       *    **Interpretation**: This corresponds to how quickly the fish is moving in this frame.
 
 *   **`acceleration1`, `acceleration2`, ...**: The acceleration (in cm/s^2) of each fish in the current frame relative to the previous frame.
 
@@ -60,17 +60,17 @@ This file contains detailed fish movement data for each frame.
 
 *    **`cumulative_distance1`, `cumulative_distance2`,...**: The cumulative distance (in cm) each fish has travelled from the beginning of the data to that specific frame.
 
-    * **Interpretation:** The total distance traveled by the fish at a specific frame.
+       * **Interpretation:** The total distance traveled by the fish at a specific frame.
 
 *   **`group_centroid_x`**: The average X coordinate of all fish at the current frame.
 
 *    **`group_centroid_y`**: The average Y coordinate of all fish at the current frame.
 
-    *    **Interpretation:** These represent the center of the group of fish at each frame.
+       *    **Interpretation:** These represent the center of the group of fish at each frame.
 
 *    **`pairwise_distances`**: A list of all pairwise distances between the fish at the current frame.
 
-    *  **Interpretation:** The distance between all fish at a given time.
+       *  **Interpretation:** The distance between all fish at a given time.
 
 *   **`mean_pairwise_distance`**: The average of all pairwise distances between the fish at the current frame.
 
