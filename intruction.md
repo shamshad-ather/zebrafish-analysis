@@ -98,7 +98,29 @@ This file contains detailed fish movement data for each frame.
     *   **Center Rectangle**: The light blue rectangle in the center of the tank represent the center zone.
     *   **Trajectories**: Shows the movement paths of each fish throughout the experiment, which helps to visualise the overall activity of each fish.
 
-### 3. `individual_fish_plots/` (Folder)
+### 3. `mean_pairwise_distance.png`
+*   **Description:** This plot displays the average pairwise distance between all fish over time. Each point represents the `mean_pairwise_distance` at a specific frame from your `fish_movement_over_time.csv` file
+
+*   **Interpretation:**
+    *   **Vertical Axis (y):** Represents the average distance between all fish in the group (in cm).
+    *   **Horizontal Axis (x):** Represents time (frame number).
+    *   **Trends:**
+        *   **Increasing Trends**: This indicates that the fish group is becoming more dispersed over time.
+        *   **Decreasing Trends**: This shows that the fish are becoming closer to each other, indicating possible schooling or aggregation.
+        *   **Stable Trends**: Shows a stable dispersion among the fish group, where fish keep their distance.
+        *   **Oscillations**: Shows the group is periodically becoming more dispersed and more aggregated.
+          
+### 4. `group_centroid_trajectory.png`
+
+*   **Description:** This plot shows the path taken by the center of the fish group (group centroid) over the entire experiment. It shows the x and y positions of the group's centroid over time.
+
+*   **Interpretation:**
+    *   **Trajectory Path:**  The line on the plot shows the path the center of the group takes over time.
+    *   **Location Preference:** The plot may reveal if the group as a whole tends to stay in specific regions of the tank.
+    *   **Directional Movement:** Helps in understanding if the group is moving in a specific direction or exploring the tank randomly.
+    *    **Cluster:** Areas of a tighter trajectory (clusters) show where the group spent more time.
+ 
+### 5. `individual_fish_plots/` (Folder)
 
 This folder contains a number of plots for each fish.
 
