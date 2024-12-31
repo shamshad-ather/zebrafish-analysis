@@ -106,6 +106,8 @@ The analysis produces several outputs:
 *   **Plot Output:**
     *   `density_heatmap.png`:  A density heatmap of fish positions in the tank.
     *   `tank_structure_plot.png`: A plot of the tank structure with defined quadrants and the center rectangle.
+    *   `mean_pairwise_distance.png`: A plot displays the average pairwise distance between all fish over time.
+    *   `group_centroid_trajectory.png`: A plot of the group's centroid over time.
      * `individual_fish_plots/`: A folder containing various plots for each fish: KDE plots, radial distributions, angle of movement histograms, speed and acceleration time series plots, polar plots, occupancy plots and trajectory smoothness plots.
 
 ## 8. Additional Information
