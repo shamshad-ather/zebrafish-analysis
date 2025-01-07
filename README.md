@@ -8,10 +8,8 @@ This repository contains a Python-based analysis tool for tracking fish movement
 2.  **Requirements**
 3.  **Setup**
 4.  **Input Data Format**
-5.  **Configuration**
-6.  **Analysis Steps**
-7.  **Output**
-8. **Additional Information**
+5.  **Analysis Steps**
+6. **Additional Information**
 
 ## 1. Overview
 
